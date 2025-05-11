@@ -1,3 +1,25 @@
+# hyperboost
+
+Подходит как для исследовательских задач, так и для практического использования в реальных проектах.
+
+
+## ✅ Поддерживаемые методы
+
+| Метод                  | Описание |
+|------------------------|----------|
+| `BayesianOptimizer`    | Байесовская оптимизация с использованием Gaussian Process |
+| `EvolutionaryOptimizer` | Простой генетический алгоритм (GA) |
+
+
+## 📦 Установка
+
+```bash
+pip install hyperoptlib
+```
+
+## 🧪 Пример использования
+
+```python
 from sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -30,3 +52,5 @@ print("Bayesian best:", best_bo)
 ea = EvolutionaryOptimizer(space, objective)
 best_ea = ea.optimize(population_size=20, generations=10)
 print("Evolutionary best:", best_ea)
+```
+
