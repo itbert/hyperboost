@@ -14,7 +14,7 @@
 ## 📦 Установка
 
 ```bash
-pip install hyperoptlib
+pip install hyperboost
 ```
 
 ## 🧪 Пример использования
